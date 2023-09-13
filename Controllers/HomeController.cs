@@ -17,5 +17,10 @@ namespace First_App.Controllers
         {
             return View();
         }
+        public ActionResult Aboutus()
+        {
+            return View();
+        }
+     
     }
 }

@@ -13,5 +13,30 @@
 <body>
     <div> first page
     </div>
+  <a href="/Home/Aboutus">درباره ما</a>
+    <br />
+    @DateTime.Now
+    <ul>
+        @for(int i=1; i<=20; i++)
+            {
+                <li>
+                    @i
+                </li>
+            }
+    </ul>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Family</th>
+        </tr>
+        @for(int i=1; i<=10; i++)
+            {
+                <tr>
+                    <td>m@(i)</td>
+                    <td>d@(i)</td>
+                </tr>
+            }
+    </table>
 </body>
 </html>
