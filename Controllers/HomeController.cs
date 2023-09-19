@@ -17,8 +17,11 @@ namespace First_App.Controllers
         {
             return View();
         }
-        public ActionResult Aboutus()
+        public ActionResult Aboutus(int id = 0)
         {
+            ViewBag.n = "nameess";
+            ViewBag.id = id;
+
             return View();
         }
      
