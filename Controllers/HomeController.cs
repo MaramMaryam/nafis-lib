@@ -24,6 +24,22 @@ namespace First_App.Controllers
 
             return View();
         }
-     
+
+        public ActionResult APart()
+        {
+            ViewBag.n = "name2";
+
+            return View();
+        }
+
+
+        [Route("About/{name?}")]
+        public ActionResult Abouts(string name)
+        {
+            ViewBag.name = name;
+
+            return PartialView();
+        }
+
     }
 }

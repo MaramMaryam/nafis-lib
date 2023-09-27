@@ -19,6 +19,7 @@ namespace First_App.Controllers
             ViewBag.Name = name;
             ViewBag.Family = family;
             ViewBag.Age = age;
+            
             return View();
         }
     }

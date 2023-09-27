@@ -111,6 +111,8 @@
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\ModlBind\Index.cshtml" />
     <Content Include="Views\Shared\_Message.cshtml" />
+    <Content Include="Views\Home\Abouts.cshtml" />
+    <Content Include="Views\Home\_MyPartialPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

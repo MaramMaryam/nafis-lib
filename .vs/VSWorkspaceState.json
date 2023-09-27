@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\App_Data",
+    "\\App_Start",
     "\\Controllers",
-    "\\packages",
     "\\Views",
-    "\\Views\\Home"
+    "\\Views\\Home",
+    "\\Views\\ModlBind",
+    "\\Views\\Shared"
   ],
   "SelectedNode": "\\Controllers\\ModlBindController.cs",
   "PreviewInSolutionExplorer": false
